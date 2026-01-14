@@ -1,0 +1,13 @@
+{
+  "name": "codingtest-js",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "solve": "node src/runner.js"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.8",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

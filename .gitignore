@@ -1,0 +1,9 @@
+.DS_Store
+.idea/
+**/.gradle/
+**/build/
+**/out/
+node_modules/
+dist/
+.env
+

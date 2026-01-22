@@ -1,0 +1,12 @@
+-- Programmers SQL Template
+-- https://school.programmers.co.kr/learn/courses/30/lessons/301647
+-- 부모의 형질을 모두 가지는 대장균 찾기
+-- 레벨2
+
+--- MySQL
+SELECT EC.ID AS ID, EC.GENOTYPE AS GENOTYPE, EP.GENOTYPE AS PARENT_GENOTYPE
+FROM ECOLI_DATA EC
+INNER JOIN ECOLI_DATA EP
+    ON EC.PARENT_ID = EP.ID
+WHERE (EC.GENOTYPE & EP.GENOTYPE) = EP.GENOTYPE
+ORDER BY EC.ID ASC;

@@ -7,3 +7,9 @@ node_modules/
 dist/
 .env
 
+# C++
+src/**/*.out
+
+# Rust
+rust/target/
+

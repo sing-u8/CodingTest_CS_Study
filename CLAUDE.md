@@ -9,6 +9,7 @@
 ├── java/          # Java 17 + Gradle 풀이
 ├── js/            # JavaScript / TypeScript 풀이
 ├── cpp/           # C++17 + Makefile 풀이
+├── go/            # Go 1.23 풀이
 ├── rust/          # Rust stable + Cargo 풀이
 ├── sql/           # SQL 풀이 + 스니펫
 ├── notes/         # 알고리즘/자료구조/디자인패턴 정리(MD)
@@ -20,9 +21,9 @@
 ## 파일 네이밍 컨벤션
 | 플랫폼 | 패턴 | 예시 |
 |--------|------|------|
-| 백준 | `B_<문제번호>_<간단설명>.java\|js\|ts\|cpp\|rs` | `B_1197_최소스패닝트리.java` |
-| LeetCode | `LC_<문제번호>_<slug>.js\|ts\|cpp\|rs` | `LC_0042_trapping-rain-water.js` |
-| 프로그래머스 | `P_<레벨>_<문제명>.java\|js\|sql\|cpp\|rs` | `P_3_가장먼노드.java` |
+| 백준 | `B_<문제번호>_<간단설명>.java\|js\|ts\|cpp\|rs\|go` | `B_1197_최소스패닝트리.java` |
+| LeetCode | `LC_<문제번호>_<slug>.js\|ts\|cpp\|rs\|go` | `LC_0042_trapping-rain-water.js` |
+| 프로그래머스 | `P_<레벨>_<문제명>.java\|js\|sql\|cpp\|rs\|go` | `P_3_가장먼노드.java` |
 
 ## 스킬
 - 알고리즘 문제 풀이·해설: `coding-test-mentor` 스킬 사용

@@ -9,7 +9,7 @@
 js/src/platform/<플랫폼>/
 ```
 예:
-- `src/platform/baekjoon/B_1197_최소스패닝트리.js`
+- `src/platform/leetcode/LC_0042_trapping-rain-water.js`
 - `src/platform/programmers/P_3_가장먼노드.js`
 
 ## 파일 템플릿
@@ -21,19 +21,19 @@ const t = tokens();
 ```
 
 ## 유틸리티
-- `src/lib/io.js` — `tokens()` 함수로 stdin 토큰 파싱. 새 문제에서 항상 재사용할 것.
+- `src/lib/io.js` — `tokens()` 함수로 stdin 토큰 파싱. 프로그래머스 stdin 기반 문제에서 재사용.
 
 ## 실행
 ```bash
 cd js
-node src/platform/baekjoon/B_XXXX_문제명.js < ../samples/baekjoon/XXXX/input.txt
+node src/platform/leetcode/LC_XXXX_slug.js
 # 또는
-npm run solve -- platform/baekjoon/B_XXXX_문제명.js < ../samples/baekjoon/XXXX/input.txt
+npm run solve -- platform/leetcode/LC_XXXX_slug.js
 ```
 
 ## TypeScript
 ```bash
-npx tsx src/runner.js platform/baekjoon/B_XXXX_문제명.ts < ../samples/baekjoon/XXXX/input.txt
+npx tsx src/runner.js platform/leetcode/LC_XXXX_slug.ts
 ```
 
 ## 스킬

@@ -9,12 +9,12 @@
 ```bash
 cd js
 npm install
-node src/runner.js platform/baekjoon/B_0000_template.js < ../samples/baekjoon/0000/input.txt
+node src/runner.js platform/leetcode/LC_0000_template.js
 ```
 
 ## TypeScript(옵션)
 
 ```bash
 cd js
-npx tsx src/runner.js platform/baekjoon/B_0000_template.ts < ../samples/baekjoon/0000/input.txt
+npx tsx src/runner.js platform/leetcode/LC_0000_template.ts
 ```

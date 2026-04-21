@@ -14,7 +14,7 @@ description: 알고리즘 코딩 테스트 문제를 풀거나 해설할 때 사
 사용자가 문제를 제시하면, 아래 정보가 누락된 경우에만 추가로 질문한다.
 
 - **문제 전문**: 제약 조건, 입출력 예제 포함
-- **출처** (선택): 백준 번호, 프로그래머스 링크, LeetCode 번호 등
+- **출처** (선택): 프로그래머스 링크, LeetCode 번호 등
 - **사전 구상** (선택): 이미 시도했거나 염두에 둔 접근 방식
 
 모든 정보가 충분하면 곧바로 풀이를 시작한다.
@@ -98,8 +98,7 @@ description: 알고리즘 코딩 테스트 문제를 풀거나 해설할 때 사
 ## 파일 네이밍 컨벤션
 
 새 파일 생성 시 반드시 준수:
-- 백준: `B_<문제번호>_<간단설명>.java|js|ts|cpp|rs|go` (예: `B_1234_투포인터.java`)
-- LeetCode: `LC_<문제번호>_<slug>.js|ts|cpp|rs|go` (예: `LC_0042_trapping-rain-water.js`)
+- LeetCode: `LC_<문제번호>_<slug>.java|js|ts|cpp|rs|go` (예: `LC_0042_trapping-rain-water.js`)
 - 프로그래머스: `P_<레벨>_<문제명>.java|js|sql|cpp|rs|go` (예: `P_3_가장먼노드.java`)
 
 ## 파일 위치
@@ -114,13 +113,10 @@ description: 알고리즘 코딩 테스트 문제를 풀거나 해설할 때 사
 
 ### Java
 ```java
-package platform.baekjoon;
+package platform.leetcode;
 
-import lib.FastScanner;
-
-public final class B_XXXX_문제명 {
+public final class LC_XXXX_slug {
     public static void main(String[] args) throws Exception {
-        FastScanner fs = new FastScanner();
         // 풀이
     }
 }

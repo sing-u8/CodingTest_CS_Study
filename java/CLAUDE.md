@@ -9,31 +9,28 @@
 java/src/main/java/platform/<플랫폼>/<카테고리>/
 ```
 예:
-- `platform/baekjoon/graph/B_1197_최소스패닝트리.java`
+- `platform/leetcode/LC_0042_trapping-rain-water.java`
 - `platform/programmers/greedy/P_3_큰수만들기.java`
 
 ## 파일 템플릿
 ```java
-package platform.baekjoon;
+package platform.leetcode;
 
-import lib.FastScanner;
-
-public final class B_XXXX_문제명 {
+public final class LC_XXXX_slug {
     public static void main(String[] args) throws Exception {
-        FastScanner fs = new FastScanner();
         // 풀이
     }
 }
 ```
 
 ## 유틸리티
-- `lib/FastScanner.java` — 빠른 입력 처리. 새 문제에서 항상 재사용할 것.
+- `lib/FastScanner.java` — 프로그래머스 stdin 기반 문제에서 빠른 입력이 필요할 때 재사용.
 - 대량 출력 시 `StringBuilder` + `System.out.print()` 사용 (println 반복 금지)
 
 ## 실행
 ```bash
 # CLI
-gradle -p java runSolution -Psolution=platform.baekjoon.B_XXXX_문제명 < samples/baekjoon/XXXX/input.txt
+gradle -p java runSolution -Psolution=platform.leetcode.LC_XXXX_slug
 ```
 
 ## 스킬

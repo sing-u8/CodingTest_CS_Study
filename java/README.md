@@ -8,4 +8,4 @@
 
 - IntelliJ에서 각 문제 클래스의 `main()`을 Run/Debug 하는 방식이 가장 간단합니다.
 - CLI 실행(선택, 로컬에 `gradle` 필요):
-  - `gradle -p java runSolution -Psolution=platform.baekjoon.B_0000_Template < samples/baekjoon/0000/input.txt`
+  - `gradle -p java runSolution -Psolution=platform.leetcode.LC_0000_Template`

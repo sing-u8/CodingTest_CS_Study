@@ -2,10 +2,10 @@ const path = require("path");
 
 /**
  * Usage:
- *   node src/runner.js platform/baekjoon/B_0000_template.js < ../samples/baekjoon/0000/input.txt
+ *   node src/runner.js platform/leetcode/LC_0000_template.js
  *
  * npm script:
- *   npm run solve -- platform/baekjoon/B_0000_template.js < ../samples/baekjoon/0000/input.txt
+ *   npm run solve -- platform/leetcode/LC_0000_template.js
  */
 function main() {
   const rel = process.argv[2];

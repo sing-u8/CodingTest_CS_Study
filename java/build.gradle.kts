@@ -19,7 +19,7 @@ application {
 
 tasks.register<JavaExec>("runSolution") {
     group = "application"
-    description = "Run a solution main class: -Psolution=platform.baekjoon.B_0000_Template"
+    description = "Run a solution main class: -Psolution=platform.leetcode.LC_0000_Template"
 
     // toolchain(17) 사용
     javaLauncher.set(javaToolchains.launcherFor {
